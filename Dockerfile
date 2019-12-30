@@ -1,6 +1,6 @@
 from tensorflow/tensorflow:1.15.0-py3-jupyter
 
-#RUN apt-get install git -y
+RUN apt-get install git -y
 
 RUN pip install jupyterlab flask pandas numpy sklearn
 
